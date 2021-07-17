@@ -1,0 +1,17 @@
+body {
+    padding: 4%;
+}
+
+.post_heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.submit {
+    padding: 5px;
+    background-color: lightgreen;
+    text-decoration: none;
+    color: black;
+    border-radius: 25px;
+    border: 1px solid greenyellow;
+}

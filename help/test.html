@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <h1>Displaying textBox when a checkbox is checked</h1>
+    Checkbox: <input type="checkbox" class="check" onclick="checkFunction()" />
+    <h2 class="textBox" style="display:none">Checkbox is checked!!!</h2>
+    <script>
+        document.querySelector(".check").addEventListener("click", checkFunction);
+        function checkFunction() {
+            var checkBox = document.querySelector(".check");
+            var textBox = document.querySelector(".textBox");
+            if (checkBox.checked == true) {
+                textBox.style.display = "block";
+            } else {
+                textBox.style.display = "none";
+            }
+        }
+    </script>
+    </body>
+
+</html>
